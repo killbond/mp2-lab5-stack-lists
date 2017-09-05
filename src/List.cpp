@@ -82,7 +82,7 @@ void List::GetEnd()
     D[end] = Node();
     L[end] = -1;
     L[end-1] = start;
-    end = L[end-2];
+    end = L[end-1];
     cout << k.getData();
 }
 
